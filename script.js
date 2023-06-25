@@ -1,3 +1,13 @@
+function convertDecimalToBinary() {
+  const decimalInput = document.getElementById('decimal-input');
+  const decimal = parseInt(decimalInput.value);
+
+  const result = decimalToBinary(decimal);
+
+  const resultElement = document.getElementById('result');
+  resultElement.textContent = `Binary: ${result}`;
+}
+
 function decimalToBinary(decimal) {
   if (decimal === 0) {
     return '0';

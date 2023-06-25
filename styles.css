@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#result {
+  text-align: center;
+  font-size: 18px;
+}
